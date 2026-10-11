@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch & Weights
+*.pth
+*.pt
+*.ckpt
+
+# Data and logs
+data/
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
