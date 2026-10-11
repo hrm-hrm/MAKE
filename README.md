@@ -20,9 +20,8 @@ To verify that the code runs without downloading TCGA data, generate a dummy dat
 
 ### 1. Training
 To train the MAKE model using 5-fold cross-validation, run:
-```bash
 python train.py --fold 0 --use_kan 1 --w_pc1 0.1
 
-### 2. Testing
 
-    python test.py 
+### 2. Testing
+python test.py 
